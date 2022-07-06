@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400;500;600;700;800&family=Baloo+Bhaijaan+2:wght@400;500;600;700;800&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Lobster&family=Mochiy+Pop+P+One&family=Oswald:wght@200;300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Beastly&display=swap');
+
+
+/* default font family name */
+/* *{
+    font-family: 'Baloo Bhai 2', cursive;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik Beastly', cursive;
+    
+} */
+
+/* default font family name */
+
+/* header */
+header {
+    background: #87509C;
+}
+
+/* header */
+
+
+/* navbar css start here */
+.navbar-brand {
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-size: 35px;
+}
+
+.navbar-a {
+    font-family: 'Oswald', sans-serif;
+    border-radius: 4px;
+    padding: 5px 20px 5px 20px !important;
+}
+
+.navbar-a:hover {
+    background: #8D6F9D;
+}
+
+/* navbar css end here */
+
+/* home page css start here */
+.home-page-margin {
+    margin-top: 130px;
+    padding-bottom: 120px;
+}
+
+.home-page-heading {
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+}
+
+.home-page-button {
+    font-family: 'Oswald', sans-serif;
+    background: #EB7D4B;
+    font-size: 18px;
+    padding: 15px 50px 15px 50px;
+    color: white;
+}
+
+/* home page css end here */
+.services-section {
+    background: #17C2A4;
+    padding: 100px 0 50px 0;
+}
+
+.service-heading {
+    font-family: 'Oswald', sans-serif;
+}
+
+.hr {
+    width: 100px;
+    margin: auto;
+    padding: 3px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.service-p {
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.services-icon1 {
+    color: red;
+}
+
+.services-icon2 {
+    color: #F1C40F;
+}
+
+.services-icon3 {
+    color: #487FBC;
+}
+
+.services-icon4 {
+    color: #c42ee9;
+}
+
+.service-col-heading {
+    font-family: 'Oswald', sans-serif;
+}
+
+/* services section css end here */
+
+
+/* our team member section start here */
+.team-section {
+    background: #E7F1F8;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.card-img-p {
+    padding: 0 45px 0 45px;
+}
+
+.card-a-icon {
+    margin: 2px;
+    padding: 3px 5px;
+    color: white;
+    background: #BDD1DF;
+    border-radius: 100%;
+}
+
+.card-a-icon i {
+    font-size: 15px;
+}
+
+.card-title {
+    font-family: 'Lobster', cursive;
+}
+
+.card {
+    background: none;
+    border: none;
+}
+
+.card-footer {
+    background: none;
+    border: none;
+}
+
+/* our team member section end here */
+
+
+/* skill section css start here */
+.skill-section {
+    margin: 100px 0 100px 0;
+}
+
+.skill-heading {
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    font-weight: 900;
+}
+
+/* Apply CSS properties to ui-widgets class */
+.ui-widgets {
+    position: relative;
+    display: inline-block;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 9rem;
+    margin: 1.5rem;
+    border: 1.2rem solid palegreen;
+    box-shadow: inset 0 0 7px grey;
+    border-left-color: white;
+    border-top-color: #30BAE7;
+    border-right-color: #30BAE7;
+    border-bottom-color: #30BAE7;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+/* Apply css properties to the second
+			child of ui-widgets class */
+.two {
+    border-top-color: #D74680;
+    border-right-color: #D74680;
+    border-left-color: white;
+    border-bottom-color: #D74680;
+}
+
+.three {
+    border-top-color: #15C7A8;
+    border-right-color: #15C7A8;
+    border-left-color: white;
+    border-bottom-color: #15C7A8;
+}
+
+.four {
+    border-top-color: #EB7D4B;
+    border-right-color: #EB7D4B;
+    border-left-color: white;
+    border-bottom-color: white;
+}
+
+/* Apply css properties to ui-widgets class
+			and ui-values class*/
+.ui-widgets .ui-values {
+    top: 40px;
+    position: absolute;
+    left: 10px;
+    right: 0;
+    font-weight: 700;
+    font-size: 2.0rem;
+
+}
+
+/* Apply css properties to ui-widgets
+			class and ui-labels class*/
+.ui-widgets .ui-labels {
+    margin-top: 170px;
+    font-size: 20px;
+}
+
+/* skill section css end here */
+
+
+/* portfolio section css start here */
+.portfolio-section {
+    background: #FFDD99;
+    padding: 100px 0 70px 0;
+}
+
+.portfolio-heading {
+    font-family: 'Rubik Beastly', cursive;
+    font-weight: lighter;
+}
+
+.portfolio-p {
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+
+}
+
+.portfolio-button {
+    font-family: 'Oswald', sans-serif;
+    border-radius: 4px;
+    padding: 5px 25px 5px 25px !important;
+    background: #EBC985;
+    margin: 5px;
+    font-size: 15px;
+}
+
+.portfolio-button:hover {
+    background: white;
+}
+
+
+.portfolio-shadow {
+    box-shadow: 100px 0px 13px 0px #E5C689 inset;
+    border: 1px solid #E5C689;
+    border-top: none;
+    border-bottom: none;
+    border-right: none;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 30px;
+
+}
+
+.portfolio-last-button {
+    font-family: 'Oswald', sans-serif;
+    background: #17C2A4;
+    font-size: 18px;
+    padding: 15px 50px 15px 50px !important;
+    color: white;
+    margin-top: 80px !important;
+}
+
+/* portfolio section css end here */
+
+
+/* about us section css start here */
+.about-us {
+    background: #D74680;
+    padding: 100px 0 50px 0;
+}
+
+.about-us-heading {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/* about us section css end here */
+
+/* contact section css start here */
+
+.contact {
+    padding: 100px 0px 80px 0;
+    background: #3C5499;
+}
+
+.contact-input-bg {
+    background: #273A71;
+    color: white;
+    border: none;
+    outline: none;
+}
+
+
+.contact-us-last-button {
+    font-family: 'Oswald', sans-serif;
+    background: #30BAE7;
+    font-size: 18px;
+    padding: 15px 50px 15px 50px !important;
+    color: white;
+
+}
+
+/* contact section css end here */
+
+/* footer section css start here */
+footer {
+    background: #344B8E;
+}
+
+.footer ul {
+    display: flex;
+    justify-content: center;
+}
+
+.footer a {
+    text-decoration: none;
+    padding: 15px;
+    margin: 10px;
+    color: white;
+    font-size: 25px;
+}
+
+.footer a:hover {
+    color: #4AFFFF;
+}
+
+/* footer section css end here */
